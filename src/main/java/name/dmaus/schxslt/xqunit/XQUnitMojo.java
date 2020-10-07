@@ -43,7 +43,7 @@ import java.io.IOException;
 import java.io.File;
 
 @Mojo(name = "xqunit")
-class XQUnitMojo extends AbstractMojo
+public class XQUnitMojo extends AbstractMojo
 {
     @Parameter(required = true)
     File path;
